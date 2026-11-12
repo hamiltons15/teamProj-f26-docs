@@ -1,5 +1,11 @@
 # Statement of Work (SoW)
 
+- **Developers**:
+  - Ash Ahmed Abdullah F AlHarbi (GitHub: AshAlharbi)
+  - Sebastien Finch (GitHub: SebasFinch)
+  - Sean Hamilton (GitHub: hamiltons15)
+  - Jeremy Sowder (GitHub: sowderj1)
+
 ---
 
 ## SoW Overview:
@@ -22,13 +28,19 @@
 
 ### (1) - Project Purpose and Objectives
 
+...
+
 ---
 
 ### (2) - Stakeholders
 
+...
+
 ---
 
 ### (3) - Scope
+
+...
 
 ---
 
@@ -70,10 +82,50 @@ From this point of understanding and subsequent departure, each deliverable is a
 
 ### (5) - Assumptions, Constraints, and Dependencies
 
+...
+
 ---
 
 ### (6) - Milestones and Schedule
 
+#### Milestones
+
+- Milestone 1 - SoW Completed
+- Milestone 2 - Graphical User Interface (GUI) Implemented
+- Milestone 3 - Fully Collected Game/Event Data and Implemented Score Tracking Capabilities
+- Milestone 4 - User Group Messaging Capabilities Implemented
+- Milestone 5 - Final Documentation Completed
+
+#### Schedule
+
+Order of Events:
+- Finished Constructing SoW (November 9th - November 16th)
+- Finding Sports Information Provider (November 17th - November 18th)
+- Populating System Database (November 17th - November 18th)
+- Develop User Account Registration Feature (November 18th - November 19th)
+- ...
+
+Gantt Chart:
+
+```mermaid
+gantt
+    title Project Schedule
+    dateFormat MM/DD
+    axisFormat %m-%d
+
+    section Documentation
+    Finish SoW : des1, 11/9, 7d
+
+    section Development and Implementation
+    Finding Sports Information Provider : des2, 11/17, 1d
+    Populating System Database : des3, 11/17, 1d
+    Develop User Account Registration Feature : des4, 11/18, 1d
+```
+
 ---
 
 ### (7) - Acceptance
+
+...
+
+---
