@@ -1,10 +1,14 @@
 # Statement of Work (SoW)
 
+- **Project Name**: (TBD) ...
 - **Developers**:
   - Ash Ahmed Abdullah F AlHarbi (GitHub: AshAlharbi)
   - Sebastien Finch (GitHub: SebasFinch)
   - Sean Hamilton (GitHub: hamiltons15)
   - Jeremy Sowder (GitHub: sowderj1)
+- **Project Period**: 11/9/2026 - 12/7/2026 ???
+- **Version**: 0.1
+- **Last Updated**: 11/13/2026
 
 ---
 
@@ -28,13 +32,26 @@
 
 ### (1) - Project Purpose and Objectives
 
+#### Purpose
+
+...
+
+#### Objectives
+
 ...
 
 ---
 
 ### (2) - Stakeholders
 
-...
+1. Stakeholder: **Client**
+> - Relationships: ...
+3. Stakeholder: **Developers**
+> - Relationship: ...
+4. Stakeholder: **End User**
+> - Relationship: ...
+5. Stakeholder: **System Administrator**
+> - Relationship: ...
 
 ---
 
@@ -104,8 +121,17 @@ Order of Events:
 - Design Frontend Interface Appearance (November 18th - November 19th)
 - Develop User Account Registration Feature (November 19th - November 20th)
 - Implement User Login Features (November 20th - November 21st)
-- Populating System Database (November 21st - ???)
-- ...
+- Populating System Database (November 21st - November 22nd)
+- User Game/Event Focused Group Chat Creation (November 22nd - November 23rd)
+- Aligning Users with Teams/Fighters Feature Creation (November 23rd - November 24th)
+- Group Message Sending Development (November 24th - November 25th)
+- Group Message Deletion Development (November 25th - November 26th)
+- Linking Messages to Users and Timestamps (November 26th - November 27th)
+- Application Error Handling and Input Validation (November 27th - November 28th)
+- Message and Chat Storage Data for Each Registered User (November 28th - November 29th)
+- Application Capability and Feature Testing (November 29th - November 30th)
+- Constructing Documentation and Deployment Instructions (November 30th - December 1st)
+- Final Application Check and Delivery to Client (December 1st - December 2nd)
 
 Gantt Chart:
 
@@ -116,7 +142,7 @@ gantt
     axisFormat %m-%d
 
     section Documentation
-    Finish SoW : des1, 11/9, 7d
+    Finish SoW : active, des1, 11/9, 7d
 
     section Development and Implementation
     Finding Sports Information Provider : des2, 11/17, 1d
@@ -124,12 +150,34 @@ gantt
     Develop User Account Registration Feature : des4, 11/19, 1d
     Implement User Login Features : des5, 11/20, 1d
     Populating System Database : des6, 11/21, 1d
+    User Game/Event Focused Group Chat Creation : des7, 11/22, 1d
+    Aligning Users with Teams/Fighters Feature Creation : des8, 11/23, 1d
+    Group Message Sending Development : des9, 11/24, 1d
+    Group Message Deletion Development : des10, 11/25, 1d
+    Linking Messages to Users and Timestamps : des1, 11/26, 1d
+
+    section Testing and Delivery : des12, 11/27, 1d
+    Application Error Handling and Input Validation : des13, 11/28, 1d
+    Message and Chat Storage Data for Each Registered User : des14, 11/29, 1d
+    Application Capability and Feature Testing : des15, 11/30, 1d
+    Constructing Documentation and Deployment Instructions : des16, 12/01, 1d
+    Final Application Check and Delivery to Client : des16, 12/02, 1d
 ```
 
 ---
 
 ### (7) - Acceptance
 
-...
+Statement of Work (SoW)
+> - Acceptance: ...
+
+Functioning (TBD NAME) Application
+> - Acceptance: ...
+
+Documentation of Application Testing
+> - Acceptance: ...
+
+Finished GitHub Repository
+> - Acceptance: ...
 
 ---
