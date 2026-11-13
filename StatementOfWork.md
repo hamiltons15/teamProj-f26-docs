@@ -101,8 +101,10 @@ From this point of understanding and subsequent departure, each deliverable is a
 Order of Events:
 - Finished Constructing SoW (November 9th - November 16th)
 - Finding Sports Information Provider (November 17th - November 18th)
-- Populating System Database (November 17th - November 18th)
-- Develop User Account Registration Feature (November 18th - November 19th)
+- Design Frontend Interface Appearance (November 18th - November 19th)
+- Develop User Account Registration Feature (November 19th - November 20th)
+- Implement User Login Features (November 20th - November 21st)
+- Populating System Database (November 21st - ???)
 - ...
 
 Gantt Chart:
@@ -118,8 +120,10 @@ gantt
 
     section Development and Implementation
     Finding Sports Information Provider : des2, 11/17, 1d
-    Populating System Database : des3, 11/17, 1d
-    Develop User Account Registration Feature : des4, 11/18, 1d
+    Design Frontend Interface Appearance : des3, 11/18, 1d
+    Develop User Account Registration Feature : des4, 11/19, 1d
+    Implement User Login Features : des5, 11/20, 1d
+    Populating System Database : des6, 11/21, 1d
 ```
 
 ---
