@@ -145,23 +145,23 @@ gantt
     Finish SoW : active, des1, 11/9, 7d
 
     section Development and Implementation
-    Finding Sports Information Provider : des2, 11/17, 1d
-    Design Frontend Interface Appearance : des3, 11/18, 1d
-    Develop User Account Registration Feature : des4, 11/19, 1d
-    Implement User Login Features : des5, 11/20, 1d
-    Populating System Database : des6, 11/21, 1d
-    User Game/Event Focused Group Chat Creation : des7, 11/22, 1d
-    Aligning Users with Teams/Fighters Feature Creation : des8, 11/23, 1d
-    Group Message Sending Development : des9, 11/24, 1d
-    Group Message Deletion Development : des10, 11/25, 1d
-    Linking Messages to Users and Timestamps : des1, 11/26, 1d
+    Finding Sports Information Provider : des2, after des1, 1d
+    Design Frontend Interface Appearance : des3, after des2, 1d
+    Develop User Account Registration Feature : des4, after des3, 1d
+    Implement User Login Features : des5, after des4, 1d
+    Populating System Database : des6, after des5, 1d
+    User Game/Event Focused Group Chat Creation : des7, after des6, 1d
+    Aligning Users with Teams/Fighters Feature Creation : des8, after des7, 1d
+    Group Message Sending Development : des9, after des8, 1d
+    Group Message Deletion Development : des10, after des9, 1d
+    Linking Messages to Users and Timestamps : des11, after des10, 1d
 
-    section Testing and Delivery : des12, 11/27, 1d
-    Application Error Handling and Input Validation : des13, 11/28, 1d
-    Message and Chat Storage Data for Each Registered User : des14, 11/29, 1d
-    Application Capability and Feature Testing : des15, 11/30, 1d
-    Constructing Documentation and Deployment Instructions : des16, 12/01, 1d
-    Final Application Check and Delivery to Client : des16, 12/02, 1d
+    section Testing and Delivery : des12, after des11, 1d
+    Application Error Handling and Input Validation : des13, after des12, 1d
+    Message and Chat Storage Data for Each Registered User : des14, after des13, 1d
+    Application Capability and Feature Testing : des15, after des14, 1d
+    Constructing Documentation and Deployment Instructions : des16, after des15, 1d
+    Final Application Check and Delivery to Client : des17, after des16, 1d
 ```
 
 ---
