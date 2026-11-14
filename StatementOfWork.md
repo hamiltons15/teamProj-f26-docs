@@ -1,6 +1,6 @@
 # Statement of Work (SoW)
 
-- **Project Name**: Ball Knowledge Bulletin (BKB)
+- **Project Name**: Ball Knowledge Bulletin (*BKB*)
 - **Developers**:
   - Ash Ahmed Abdullah F AlHarbi (GitHub: AshAlharbi)
   - Sebastien Finch (GitHub: SebasFinch)
