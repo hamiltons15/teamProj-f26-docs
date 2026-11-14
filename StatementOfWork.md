@@ -61,7 +61,7 @@
 
 ---
 
-###### (4) - Deliverables
+### (4) - Deliverables
 
 When considering the deliverables of {*BKB*}, we need to consider these deliverables as a hierarchy of deliverables with certain sub-deliverables, such that the outermost deliverable is the {*BKB*} application itself. By definition, sub-deliverables are deliverables that another 'parent' deliverable depends upon to fulfil its defined deliverable functionality, even those without a place within the working application. These dependencies are listed in the Depends On column below.
 
