@@ -63,9 +63,9 @@
 
 ### (4) - Deliverables
 
-When considering the deliverables of {*BKB*}, we need to consider these deliverables as a hierarchy of deliverables with certain sub-deliverables, such that the outermost deliverable is the {*BKB*} application itself. By definition, sub-deliverables are deliverables that another 'parent' deliverable depends upon to fulfil its defined deliverable functionality, even those without a place within the working application. These dependencies are listed in the Depends On column below.
+When considering the deliverables of *BKB*, we need to consider these deliverables as a hierarchy of deliverables with certain sub-deliverables, such that the outermost deliverable is the {*BKB*} application itself. By definition, sub-deliverables are deliverables that another 'parent' deliverable depends upon to fulfil its defined deliverable functionality, even those without a place within the working application. These dependencies are listed in the Depends On column below.
 
-Deliverables for {*BKB*} will generally consist of documentation essential to comprehending the purpose, what is promised, what is delivered, what is required, the subsequent analysis thereof, and an honest reflection on the ethics concerning the construction of {*BKB*}. Beyond this critical documentation, deliverables and sub-deliverables alike shall serve as key components of the {TBD APP NAME} deliverable itself.
+Deliverables for *BKB* will generally consist of documentation essential to comprehending the purpose, what is promised, what is delivered, what is required, the subsequent analysis thereof, and an honest reflection on the ethics concerning the construction of *BKB*. Beyond this critical documentation, deliverables and sub-deliverables alike shall serve as key components of the *BKB* deliverable itself.
 
 For the purposes of this document, a 'Team' refers to an NFL, NBA, or MLB team, or an individual UFC fighter, and a 'Matchup' refers to a game or fight between two Teams. Deliverables with a lowercase ID (e.g. d34) are minor deliverables. Every application deliverable (D10 and above) is additionally documented as part of Verification (D03).
 
@@ -77,10 +77,10 @@ From this point of understanding and subsequent departure, each deliverable is a
 | D01 | Requirements Engineering                                     | D00        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
 | D02 | Diagrams and Analysis                                        | D01        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
 | D03 | Verification Documentation                                   | D02        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
-| D10 | Sports Data Retrieval, Storage, & Availability               | —          | {TBD APP NAME} retrieves NFL, NBA, MLB, or UFC data from an external sports data source; said data is stored and available on the {BKB} platform                                                     |
+| D10 | Sports Data Retrieval, Storage, & Availability               | —          | {TBD APP NAME} retrieves NFL, NBA, MLB, or UFC data from an external sports data source; said data is stored and available on the *BKB* platform                                                     |
 | D11 | Sports Data Aggregation                                      | D10        | Sports Data is refined & concentrated into the Team, Schedule, and Matchup data required by D20–D22                                                                                                           |
-| D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the {BKB} platform                                                                                                                   |
-| D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the {BKB} platform                                                                                                                      |
+| D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the *BKB* platform                                                                                                                   |
+| D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the *BKB* platform                                                                                                                      |
 | D22 | Team Matchup Data                                            | D21        | Team Matchup Data (participants, time, and score or result) is stored for each game in the Team Game Schedule Data                                                                                            |
 | D30 | Team Matchup Pages                                           | D22        | For each team matchup, there exists a unique page                                                                                                                                                             |
 | D31 | Team Matchup Threads                                         | D30        | For each team matchup page, there exists a distinct thread                                                                                                                                                    |
@@ -169,15 +169,15 @@ gantt
 ### (7) - Acceptance
 
 Statement of Work (SoW)
-> - Acceptance: ...
+> - Acceptance: Stakeholders have viewed and agreed to the Terms and Dates set out in this SoW.
 
 Functioning *BKB* Application
-> - Acceptance: ...
+> - Acceptance: Stakeholders have agreed that the *BKB* application meets all the neccessary Minimum Viable Product requirements. Including the ability to display a personalized sports dashboard, multiple sporting updates, and user interaction based on team affiliation through online public group messaging.
 
 Documentation of Application Testing
-> - Acceptance: ...
+> - Acceptance: Stakeholders have inspected the documentation of all the processes in this *BKB* application. They must conclude that all the information is accurate and achieves the set purpose and objectives that are located in the "**(1) - Project Purpose and Objectives**" section section of this SoW.
 
 Finished GitHub Repository
-> - Acceptance: ...
+> - Acceptance: Every file and collection of data found in the GitHub Repository for this specific *BKB* application project is functional and achieves the purpose and objectives that are set out in the "**(1) - Project Purpose and Objectives**" section of this SoW.
 
 ---
