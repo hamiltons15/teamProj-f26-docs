@@ -9,7 +9,7 @@
   - Jeremy Sowder (GitHub: sowderj1)
 - **Project Period**: 11/9/2026 - 12/11/2026 
 - **Version**: 0.1
-- **Last Updated**: 11/13/2026
+- **Last Updated**: 11/15/2026
 
 ---
 
@@ -43,6 +43,12 @@ The initial minimum viable product (MVP) will focus exclusively on the National 
 
 ...
 
+**Problem Statement:** Sports fans often rely on separate platforms to access game information and communicate with other fans. This makes it less convenient to follow favorite teams, view NFL matchups, and participate in discussions specific to individual games.
+
+**Intended Outcome:** *Ball Knowledge Bulletin (BKB)* aims to provide a centralized sports platform where registered users can select their favorite NFL team, access schedules and game information through a personalized dashboard, and participate in real time, matchup specific group discussions. The system will maintain persistent messages and keep discussions separated by game.
+
+...
+
 #### Objectives
 
 The primary objectives of *BKB* are as follows:
@@ -67,11 +73,11 @@ The primary objectives of *BKB* are as follows:
 
 1. Stakeholder: **Client**
 > - Relationships: Those who are requesting the development of *BKB*, and defining and communicating the expected sports data and desired communication features.
-3. Stakeholder: **Developers**
+2. Stakeholder: **Developers**
 > - Relationship: Responsible for developing, designing, implementing features, testing, documenting, and delivering the *BKB* application.
-4. Stakeholder: **End User**
+3. Stakeholder: **End User**
 > - Relationship: Any and all registered users who use *BKB* to view sporting game/event data and to communicate with other registered users.
-5. Stakeholder: **System Administrator**
+4. Stakeholder: **System Administrator**
 > - Relationship: Given the role of being in charge of maintaining the deployed *BKB* application and the infrastructure that comes with it.
 
 ---
@@ -106,7 +112,7 @@ The following capabilities will be included within the initial *BKB* application
 
 The minimum complete *BKB* application will demonstrate an integrated workflow in which a user can register an account, log in, select a favorite NFL team, view personalized game information, navigate to a specific NFL matchup, and participate in its associated group discussion.
 
-The application must also demonstrate that messages are stored and retrieved correctly, discussions remain separated by matchup and or respective team, unauthorized users cannot submit messages, and unavailable sporting information is handled appropriately.
+The application must also demonstrate that messages are stored and retrieved correctly, discussions remain separated by respective NFL matchups, unauthorized users cannot submit messages, and unavailable sporting information is handled appropriately.
 
 All required functionality must operate together through the MERN application rather than as separate demonstrations of individual components.
 
@@ -133,7 +139,7 @@ If the required MVP functionality has been implemented, integrated, and verified
 - User message deletion functionality.
 - Additional dashboard customization and interface improvements.
 
-Optional enhancements will only be attempted after the required application functionality is operational and sufficient time remains for integration, testing, and documentation. These enhancements will not replace or delay the completion of the MVP.
+Optional enhancements will only be attempted after all required MVP functionality has been implemented, integrated, and verified. The development team will evaluate the remaining project schedule before approving additional features to ensure that sufficient time remains for final testing, documentation, and demonstration preparation. Optional enhancements will not replace or delay the completion of required deliverables.
 
 ...
 
@@ -152,10 +158,13 @@ From this point of understanding and subsequent departure, each deliverable is a
 | ID  | Deliverable                                                  | Depends On | Acceptance Criteria                                                                                                                                                                                           |
 | --- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | D00 | Statement of Work                                            | —          | Contains each section listed in the SoW Overview; committed to the repository and submitted on GitHub                                                                                                         |
-| D01 | Requirements Engineering                                     | D00        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
-| D02 | Diagrams and Analysis                                        | D01        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
-| D03 | Verification Documentation                                   | D02        | Contains all required sections; committed to the repository and submitted on GitHub                                                                                                                           |
-| D10 | Sports Data Retrieval, Storage, & Availability               | —          | {TBD APP NAME} retrieves NFL, NBA, MLB, or UFC data from an external sports data source; said data is stored and available on the *BKB* platform                                                     |
+| D01 | Requirements Engineering                                     | D00        | Contains functional and quality requirements with unique IDs, acceptance criteria, and verification traceability; saved in `requirements.md`                                                         |
+| D02 | Diagrams and Analysis                                        | D01        | Contains a DFD or Sequence Diagram with supporting analysis; editable source and rendered diagrams                                                                             |
+| D03 | Verification Documentation                                   | D01, D02   | Documents test procedures, expected and actual results, and evidence verifying required MVP functionality; saved in `verification.md`                                                                   |
+| D04 | Ethics Reflection                                            | D01, D02   | Evaluates cultural, economic, environmental, global, health, safety, welfare, and social impacts with appropriate mitigations; saved in `ethics-reflection.md`                                   |
+| D05 | Integrated Application and Setup                             | D10-D44    | Working MERN application with documented setup instructions; required MVP workflows function correctly from a fresh checkout                                                                                               |
+| D06 | Final Showcase                                               | D03-D05    | Team presents a lightning talk and live demonstration of required MVP features with supporting verification evidence                                                                                           |
+| D10 | Sports Data Retrieval, Storage, & Availability               | —          | Ball Knowledge Bulletin (*BKB*) retrieves NFL, NBA, MLB, or UFC data from an external sports data source; said data is stored and available on the *BKB* platform                                                     |
 | D11 | Sports Data Aggregation                                      | D10        | Sports Data is refined & concentrated into the Team, Schedule, and Matchup data required by D20–D22                                                                                                           |
 | D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the *BKB* platform                                                                                                                   |
 | D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the *BKB* platform                                                                                                                      |
@@ -249,6 +258,8 @@ The team will prioritize completion of the required MVP functionality before imp
 Any changes affecting the agreed MVP requirements, project milestones, or final deliverables will be documented and reflected in the relevant engineering artifacts. Essential functionality will not be removed without reviewing and documenting the change.
 
 The team will regularly review development progress to ensure that sufficient time remains for integration, testing, documentation, and preparation for the final demonstration.
+
+The team will evaluate optional enhancements based on the completion status of required MVP functionality, the results of application testing, and the remaining development time. Optional features will only be approved for implementation when all required functionality has been integrated and verified, and sufficient time remains for final documentation and demonstration preparation. Any decision to defer an optional feature will be documented by the team.
 
 ...
 
