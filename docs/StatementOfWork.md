@@ -41,13 +41,9 @@ The application will be developed using the MongoDB, Express, React, and Node.js
 
 The initial minimum viable product (MVP) will focus exclusively on the National Football League (NFL). This will allow the development team to prioritize implementing and verifying the application's core functionality before considering additional sporting leagues, including the NBA, MLB, and UFC.
 
-...
-
 **Problem Statement:** Sports fans often rely on separate platforms to access game information and communicate with other fans. This makes it less convenient to follow favorite teams, view NFL matchups, and participate in discussions specific to individual games.
 
 **Intended Outcome:** *Ball Knowledge Bulletin (BKB)* aims to provide a centralized sports platform where registered users can select their favorite NFL team, access schedules and game information through a personalized dashboard, and participate in real time, matchup specific group discussions. The system will maintain persistent messages and keep discussions separated by game.
-
-...
 
 #### Objectives
 
@@ -64,8 +60,6 @@ The primary objectives of *BKB* are as follows:
 5. **Real Time Communication and Message Persistence:** Allow authenticated users to send and receive messages without refreshing the page, while storing messages so that discussion history remains available when users return to an event.
 
 6. **Application Reliability and Verification:** Develop and verify a functional MERN application that enforces user authentication, separates messages by event, handles invalid requests, and provides reproducible evidence that the required features operate as intended.
-
-...
 
 ---
 
@@ -140,8 +134,6 @@ If the required MVP functionality has been implemented, integrated, and verified
 - Additional dashboard customization and interface improvements.
 
 Optional enhancements will only be attempted after all required MVP functionality has been implemented, integrated, and verified. The development team will evaluate the remaining project schedule before approving additional features to ensure that sufficient time remains for final testing, documentation, and demonstration preparation. Optional enhancements will not replace or delay the completion of required deliverables.
-
-...
 
 ---
 
@@ -261,8 +253,6 @@ The team will regularly review development progress to ensure that sufficient ti
 
 The team will evaluate optional enhancements based on the completion status of required MVP functionality, the results of application testing, and the remaining development time. Optional features will only be approved for implementation when all required functionality has been integrated and verified, and sufficient time remains for final documentation and demonstration preparation. Any decision to defer an optional feature will be documented by the team.
 
-...
-
 ---
 
 ### (6) - Milestones and Schedule
@@ -357,6 +347,6 @@ The *Ball Knowledge Bulletin (BKB)* project will be considered complete when the
 - **Acceptance:** The team successfully demonstrates the application's core features and presents supporting verification evidence.
 
 #### Final Acceptance
-The project will be accepted when all required MVP features and deliverables have been completed, verified, and reviewed by the designated project evaluator. Optional enhancements are not required for acceptance.
+- **Acceptance:** The project will be accepted when all required MVP features and deliverables have been completed, verified, and reviewed by the designated project evaluator. Optional enhancements are not required for acceptance.
 
 ---
