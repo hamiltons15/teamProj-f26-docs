@@ -330,16 +330,33 @@ gantt
 
 ### (7) - Acceptance
 
-Statement of Work (SoW)
-> - Acceptance: Stakeholders have viewed and agreed to the Terms and Dates set out in this SoW.
+The *Ball Knowledge Bulletin (BKB)* project will be considered complete when the following acceptance criteria are met:
 
-Functioning *BKB* Application
-> - Acceptance: Stakeholders have agreed that the *BKB* application meets all the neccessary Minimum Viable Product requirements. Including the ability to display a personalized sports dashboard, multiple sporting updates, and user interaction based on team affiliation through online public group messaging.
+#### Statement of Work (D00)
+- **Acceptance:** All required sections are completed, reviewed, and submitted through the team's GitHub repository.
 
-Documentation of Application Testing
-> - Acceptance: Stakeholders have inspected the documentation of all the processes in this *BKB* application. They must conclude that all the information is accurate and achieves the set purpose and objectives that are located in the "**(1) - Project Purpose and Objectives**" section section of this SoW.
+#### Project Documentation (D01–D04)
+- **Acceptance:** Requirements, diagrams, testing documentation, and ethics reflection are completed and accurately represent the application's functionality.
 
-Finished GitHub Repository
-> - Acceptance: Every file and collection of data found in the GitHub Repository for this specific *BKB* application project is functional and achieves the purpose and objectives that are set out in the "**(1) - Project Purpose and Objectives**" section of this SoW.
+#### Functioning BKB Application (D05)
+- **Acceptance:** The application successfully demonstrates:
+  - User registration, login, and authentication.
+  - A personalized NFL dashboard displaying schedules, scores, and results.
+  - Integration with an external sports data API.
+  - Individual NFL matchup pages with dedicated group discussions.
+  - Real-time messaging with persistent message history.
+  - Appropriate error handling and input validation.
+
+#### Testing and Verification (D03)
+- **Acceptance:** Required features are tested and documented with expected results, actual results, and supporting evidence. Any unresolved issues are documented.
+
+#### GitHub Repository
+- **Acceptance:** The repository contains functional source code, required documentation, and clear installation and setup instructions.
+
+#### Final Showcase (D06)
+- **Acceptance:** The team successfully demonstrates the application's core features and presents supporting verification evidence.
+
+#### Final Acceptance
+The project will be accepted when all required MVP features and deliverables have been completed, verified, and reviewed by the designated project evaluator. Optional enhancements are not required for acceptance.
 
 ---
