@@ -1,6 +1,6 @@
 # Statement of Work (SoW)
 
-- **Project Name**: Ball Knowledge Bulletin (*BKB*)
+- **Project Name**: *Ball Knowledge Bulletin*
 - **Team 21 Pathway**: Option 2 Original MERN Stack Project
 - **Developers**:
   - Ash Ahmed Abdullah F AlHarbi (GitHub: AshAlharbi)
@@ -35,25 +35,25 @@
 
 #### Purpose
 
-The purpose of *Ball Knowledge Bulletin (BKB)* is to provide sports fans with a centralized platform where they can view sporting event information, personalize their experience based on their favorite teams, and communicate with other users through event-specific group messaging. Rather than requiring users to navigate between separate platforms to check scores, view upcoming events, and discuss games, *BKB* aims to combine these capabilities into a single application.
+The purpose of *Ball Knowledge Bulletin* is to provide sports fans with a centralized platform where they can view sporting event information, personalize their experience based on their favorite teams, and communicate with other users through event-specific group messaging. Rather than requiring users to navigate between separate platforms to check scores, view upcoming events, and discuss games, *Ball Knowledge Bulletin* aims to combine these capabilities into a single application.
 
-The application will be developed using the MongoDB, Express, React, and Node.js (MERN) technology stack. *BKB* will retrieve sporting event information from an external data provider, maintain registered user accounts and preferences, and support persistent group messaging associated with individual sporting events.
+The application will be developed using the MongoDB, Express, React, and Node.js (MERN) technology stack. *Ball Knowledge Bulletin* will retrieve sporting event information from an external data provider, maintain registered user accounts and preferences, and support persistent group messaging associated with individual sporting events.
 
 The initial minimum viable product (MVP) will focus exclusively on the National Football League (NFL). This will allow the development team to prioritize implementing and verifying the application's core functionality before considering additional sporting leagues, including the NBA, MLB, and UFC.
 
 **Problem Statement:** Sports fans often rely on separate platforms to access game information and communicate with other fans. This makes it less convenient to follow favorite teams, view NFL matchups, and participate in discussions specific to individual games.
 
-**Intended Outcome:** *Ball Knowledge Bulletin (BKB)* aims to provide a centralized sports platform where registered users can select their favorite NFL team, access schedules and game information through a personalized dashboard, and participate in real time, matchup specific group discussions. The system will maintain persistent messages and keep discussions separated by game.
+**Intended Outcome:** *Ball Knowledge Bulletin* aims to provide a centralized sports platform where registered users can select their favorite NFL team, access schedules and game information through a personalized dashboard, and participate in real time, matchup specific group discussions. The system will maintain persistent messages and keep discussions separated by game.
 
 #### Objectives
 
-The primary objectives of *BKB* are as follows:
+The primary objectives of *Ball Knowledge Bulletin* are as follows:
 
 1. **User Registration and Authentication:** Allow users to register accounts, securely log in, and access application features associated with their authenticated identity.
 
 2. **Personalized Sports Dashboard:** Provide registered users with a dashboard that displays NFL game schedules, available scores, and results, while prioritizing information associated with their selected favorite NFL team.
 
-3. **Sports Data Retrieval and Availability:** Retrieve NFL team and game information from a documented external sports data provider, store the necessary information, and make it accessible through the *BKB* application. The system will also handle missing scores, unavailable events, and failures when retrieving external data.
+3. **Sports Data Retrieval and Availability:** Retrieve NFL team and game information from a documented external sports data provider, store the necessary information, and make it accessible through the *Ball Knowledge Bulletin* application. The system will also handle missing scores, unavailable events, and failures when retrieving external data.
 
 4. **Event Specific Group Messaging:** Provide a distinct group messaging thread for each supported NFL game, allowing registered users to participate in discussions associated with individual matchups.
 
@@ -66,25 +66,25 @@ The primary objectives of *BKB* are as follows:
 ### (2) - Stakeholders
 
 1. Stakeholder: **Client**
-> - Relationships: Those who are requesting the development of *BKB*, and defining and communicating the expected sports data and desired communication features.
+> - Relationships: Those who are requesting the development of *Ball Knowledge Bulletin*, and defining and communicating the expected sports data and desired communication features.
 2. Stakeholder: **Developers**
-> - Relationship: Responsible for developing, designing, implementing features, testing, documenting, and delivering the *BKB* application.
+> - Relationship: Responsible for developing, designing, implementing features, testing, documenting, and delivering the *Ball Knowledge Bulletin* application.
 3. Stakeholder: **End User**
-> - Relationship: Any and all registered users who use *BKB* to view sporting game/event data and to communicate with other registered users.
+> - Relationship: Any and all registered users who use *Ball Knowledge Bulletin* to view sporting game/event data and to communicate with other registered users.
 4. Stakeholder: **System Administrator**
-> - Relationship: Given the role of being in charge of maintaining the deployed *BKB* application and the infrastructure that comes with it.
+> - Relationship: Given the role of being in charge of maintaining the deployed *Ball Knowledge Bulletin* application and the infrastructure that comes with it.
 
 ---
 
 ### (3) - Scope
 
-The scope of *Ball Knowledge Bulletin (BKB)* consists of developing a functional sports networking application using the MongoDB, Express, React, and Node.js (MERN) technology stack. The application will provide registered users with personalized sporting information and the ability to communicate with other users through public group messaging associated with individual sporting events.
+The scope of *Ball Knowledge Bulletin* consists of developing a functional sports networking application using the MongoDB, Express, React, and Node.js (MERN) technology stack. The application will provide registered users with personalized sporting information and the ability to communicate with other users through public group messaging associated with individual sporting events.
 
 The initial minimum viable product (MVP) will focus exclusively on the National Football League (NFL). While the original project concept included the NFL, NBA, MLB, and UFC, the team has decided to prioritize one league to ensure that the core application functionality can be implemented, integrated, and verified within the available project period.
 
 #### In-Scope Functionality
 
-The following capabilities will be included within the initial *BKB* application:
+The following capabilities will be included within the initial *Ball Knowledge Bulletin* application:
 
 1. **User Registration and Authentication:** Users will be able to register an account, log in, and access features associated with their authenticated identity. The application will maintain user information and enforce authentication requirements for participating in group messaging.
 
@@ -92,7 +92,7 @@ The following capabilities will be included within the initial *BKB* application
 
 3. **Personalized Sports Dashboard:** The application will provide users with an interface displaying NFL teams, upcoming games, available scores, and completed game results. Information associated with a user's favorite team will be prioritized.
 
-4. **Sports Data Retrieval and Storage:** *BKB* will retrieve NFL team, schedule, and matchup information from an external sports data provider. The necessary information will be processed and stored within the application's database. The application will distinguish between upcoming, ongoing, and completed games when that information is available.
+4. **Sports Data Retrieval and Storage:** *Ball Knowledge Bulletin* will retrieve NFL team, schedule, and matchup information from an external sports data provider. The necessary information will be processed and stored within the application's database. The application will distinguish between upcoming, ongoing, and completed games when that information is available.
 
 5. **Individual Matchup Pages:** Each supported NFL game will have a distinct matchup page displaying its participating teams, scheduled time, and available score or result. Users will be able to navigate from the dashboard to individual matchup pages.
 
@@ -104,7 +104,7 @@ The following capabilities will be included within the initial *BKB* application
 
 #### Minimum Complete Project
 
-The minimum complete *BKB* application will demonstrate an integrated workflow in which a user can register an account, log in, select a favorite NFL team, view personalized game information, navigate to a specific NFL matchup, and participate in its associated group discussion.
+The minimum complete *Ball Knowledge Bulletin* application will demonstrate an integrated workflow in which a user can register an account, log in, select a favorite NFL team, view personalized game information, navigate to a specific NFL matchup, and participate in its associated group discussion.
 
 The application must also demonstrate that messages are stored and retrieved correctly, discussions remain separated by respective NFL matchups, unauthorized users cannot submit messages, and unavailable sporting information is handled appropriately.
 
@@ -139,9 +139,9 @@ Optional enhancements will only be attempted after all required MVP functionalit
 
 ### (4) - Deliverables
 
-When considering the deliverables of *BKB*, we need to consider these deliverables as a hierarchy of deliverables with certain sub-deliverables, such that the outermost deliverable is the {*BKB*} application itself. By definition, sub-deliverables are deliverables that another 'parent' deliverable depends upon to fulfil its defined deliverable functionality, even those without a place within the working application. These dependencies are listed in the Depends On column below.
+When considering the deliverables of *Ball Knowledge Bulletin*, we need to consider these deliverables as a hierarchy of deliverables with certain sub-deliverables, such that the outermost deliverable is the *Ball Knowledge Bulletin* application itself. By definition, sub-deliverables are deliverables that another 'parent' deliverable depends upon to fulfil its defined deliverable functionality, even those without a place within the working application. These dependencies are listed in the Depends On column below.
 
-Deliverables for *BKB* will generally consist of documentation essential to comprehending the purpose, what is promised, what is delivered, what is required, the subsequent analysis thereof, and an honest reflection on the ethics concerning the construction of *BKB*. Beyond this critical documentation, deliverables and sub-deliverables alike shall serve as key components of the *BKB* deliverable itself.
+Deliverables for *Ball Knowledge Bulletin* will generally consist of documentation essential to comprehending the purpose, what is promised, what is delivered, what is required, the subsequent analysis thereof, and an honest reflection on the ethics concerning the construction of *Ball Knowledge Bulletin*. Beyond this critical documentation, deliverables and sub-deliverables alike shall serve as key components of the *Ball Knowledge Bulletin* deliverable itself.
 
 For the purposes of this document, a 'Team' refers to an NFL, NBA, or MLB team, or an individual UFC fighter, and a 'Matchup' refers to a game or fight between two Teams. Deliverables with a lowercase ID (e.g. d34) are minor deliverables. Every application deliverable (D10 and above) is additionally documented as part of Verification (D03).
 
@@ -156,10 +156,10 @@ From this point of understanding and subsequent departure, each deliverable is a
 | D04 | Ethics Reflection                                            | D01, D02   | Evaluates cultural, economic, environmental, global, health, safety, welfare, and social impacts with appropriate mitigations; saved in `ethics-reflection.md`                                   |
 | D05 | Integrated Application and Setup                             | D10-D44    | Working MERN application with documented setup instructions; required MVP workflows function correctly from a fresh checkout                                                                                               |
 | D06 | Final Showcase                                               | D03-D05    | Team presents a lightning talk and live demonstration of required MVP features with supporting verification evidence                                                                                           |
-| D10 | Sports Data Retrieval, Storage, & Availability               | —          | Ball Knowledge Bulletin (*BKB*) retrieves NFL data from an external sports data source; said data is stored and available on the *BKB* platform                                                     |
+| D10 | Sports Data Retrieval, Storage, & Availability               | —          | *Ball Knowledge Bulletin* retrieves NFL data from an external sports data source; said data is stored and available on the *Ball Knowledge Bulletin* platform                                                     |
 | D11 | Sports Data Aggregation                                      | D10        | Sports Data is refined & concentrated into the Team, Schedule, and Matchup data required by D20–D22                                                                                                           |
-| D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the *BKB* platform                                                                                                                   |
-| D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the *BKB* platform                                                                                                                      |
+| D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the *Ball Knowledge Bulletin* platform                                                                                                                   |
+| D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the *Ball Knowledge Bulletin* platform                                                                                                                      |
 | D22 | Team Matchup Data                                            | D21        | Team Matchup Data (participants, time, and score or result) is stored for each game in the Team Game Schedule Data                                                                                            |
 | D30 | Team Matchup Pages                                           | D22        | For each team matchup, there exists a unique page                                                                                                                                                             |
 | D31 | Team Matchup Threads                                         | D30        | For each team matchup page, there exists a distinct thread                                                                                                                                                    |
@@ -178,7 +178,7 @@ From this point of understanding and subsequent departure, each deliverable is a
 
 ### (5) - Assumptions, Constraints, and Dependencies
 
-The development and successful delivery of *Ball Knowledge Bulletin (BKB)* depend on several assumptions, constraints, and dependencies. These conditions establish the circumstances under which the application will be developed, identify potential limitations, and help the development team prepare for problems that may arise throughout the project.
+The development and successful delivery of *Ball Knowledge Bulletin* depend on several assumptions, constraints, and dependencies. These conditions establish the circumstances under which the application will be developed, identify potential limitations, and help the development team prepare for problems that may arise throughout the project.
 
 #### Assumptions
 
@@ -198,7 +198,7 @@ The following assumptions concern conditions that have not yet been fully confir
 
 The following constraints establish known limitations and requirements that the team must follow:
 
-1. **Technology Stack:** As required by the original project pathway, *BKB* must be developed using the MongoDB, Express, React, and Node.js (MERN) technology stack. Supporting libraries and technologies may be used but will not replace these required components.
+1. **Technology Stack:** As required by the original project pathway, *Ball Knowledge Bulletin* must be developed using the MongoDB, Express, React, and Node.js (MERN) technology stack. Supporting libraries and technologies may be used but will not replace these required components.
 
 2. **Development Period:** The project must be completed within the remaining Fall 2026 Capstone I semester. The Statement of Work must be submitted by November 16, 2026, and the completed application and supporting engineering artifacts must be ready for the team's scheduled final exam period.
 
@@ -212,7 +212,7 @@ The following constraints establish known limitations and requirements that the 
 
 #### Dependencies
 
-The following dependencies identify components, services, and decisions required for the successful development of *BKB*:
+The following dependencies identify components, services, and decisions required for the successful development of *Ball Knowledge Bulletin*:
 
 1. **Sports Data Provider:** The application depends on selecting and integrating an external NFL data provider. The team must confirm the provider's available data fields, access requirements, request limits, and refresh capabilities before finalizing the sports data retrieval implementation.
 
@@ -320,7 +320,7 @@ gantt
 
 ### (7) - Acceptance
 
-The *Ball Knowledge Bulletin (BKB)* project will be considered complete when the following acceptance criteria are met:
+The *Ball Knowledge Bulletin* project will be considered complete when the following acceptance criteria are met:
 
 #### Statement of Work (D00)
 - **Acceptance:** All required sections are completed, reviewed, and submitted through the team's GitHub repository.
@@ -328,7 +328,7 @@ The *Ball Knowledge Bulletin (BKB)* project will be considered complete when the
 #### Project Documentation (D01–D04)
 - **Acceptance:** Requirements, diagrams, testing documentation, and ethics reflection are completed and accurately represent the application's functionality.
 
-#### Functioning BKB Application (D05)
+#### Functioning Ball Knowledge Bulletin Application (D05)
 - **Acceptance:** The application successfully demonstrates:
   - User registration, login, and authentication.
   - A personalized NFL dashboard displaying schedules, scores, and results.
