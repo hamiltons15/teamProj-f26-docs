@@ -318,12 +318,12 @@ gantt
     Group Message Deletion Development : des10, after des9, 1d
     Linking Messages to Users and Timestamps : des11, after des10, 1d
 
-    section Testing and Delivery : des12, after des11, 1d
-    Application Error Handling and Input Validation : des13, after des12, 1d
-    Message and Chat Storage Data for Each Registered User : des14, after des13, 1d
-    Application Capability and Feature Testing : des15, after des14, 1d
-    Constructing Documentation and Deployment Instructions : des16, after des15, 1d
-    Final Application Check and Delivery to Client : des17, after des16, 1d
+    section Testing and Delivery
+    Application Error Handling and Input Validation : des12, after des11, 1d
+    Message and Chat Storage Data for Each Registered User : des13, after des12, 1d
+    Application Capability and Feature Testing : des14, after des13, 1d
+    Constructing Documentation and Deployment Instructions : des15, after des14, 1d
+    Final Application Check and Delivery to Client : des16, after des15, 1d
 ```
 
 ---
