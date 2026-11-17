@@ -143,7 +143,7 @@ When considering the deliverables of *Ball Knowledge Bulletin*, we need to consi
 
 Deliverables for *Ball Knowledge Bulletin* will generally consist of documentation essential to comprehending the purpose, what is promised, what is delivered, what is required, the subsequent analysis thereof, and an honest reflection on the ethics concerning the construction of *Ball Knowledge Bulletin*. Beyond this critical documentation, deliverables and sub-deliverables alike shall serve as key components of the *Ball Knowledge Bulletin* deliverable itself.
 
-For the purposes of this document, a 'Team' refers to an NFL, NBA, or MLB team, or an individual UFC fighter, and a 'Matchup' refers to a game or fight between two Teams. Deliverables with a lowercase ID (e.g. d34) are minor deliverables. Every application deliverable (D10 and above) is additionally documented as part of Verification (D03).
+For the purposes of this document, a 'Team' refers to an NFL, NBA, or MLB team, or an individual UFC fighter, and a 'Matchup' refers to a game or fight between two Teams. However, the (MVP) will only focus on NFL teams and matchups. Deliverables with a lowercase ID (e.g. d34) are minor deliverables. Every application deliverable (D10 and above) is additionally documented as part of Verification (D03).
 
 From this point of understanding and subsequent departure, each deliverable is accepted according to the following criteria:
 
@@ -257,64 +257,145 @@ The team will evaluate optional enhancements based on the completion status of r
 
 ### (6) - Milestones and Schedule
 
+The development of *Ball Knowledge Bulletin* will be organized into milestones and workstreams to ensure that the required minimum viable product (MVP) is completed, integrated, tested, and documented before the final showcase.
+
+Development will follow a coordinated schedule that allows independent components to be implemented in parallel where appropriate. The team will regularly integrate completed functionality to identify compatibility issues before the final testing period.
+
+The team's target is to complete the required application functionality by December 2, 2026, leaving December 3–10 for final integration, verification, defect correction, documentation, and demonstration preparation.
+
+The completed application and supporting engineering artifacts must be ready for the CPS 490 Section 02 final showcase on December 11, 2026, from 8:00–9:50 AM.
+
 #### Milestones
 
-- Milestone 1 - SoW Completed
-- Milestone 2 - Graphical User Interface (GUI) Implemented
-- Milestone 3 - Fully Collected Game/Event Data and Implemented Score Tracking Capabilities
-- Milestone 4 - User Group Messaging Capabilities Implemented
-- Milestone 5 - Final Documentation Completed
+| Milestone | Description | Target Date | Completion Evidence |
+|---|---|---|---|
+| M1 | Statement of Work Completed | November 16 | Reviewed SoW and Gantt chart committed to the team documentation repository and submitted as required |
+| M2 | Requirements and System Design Completed | November 21 | Requirements documentation, initial diagrams, and supporting analysis available for team review |
+| M3 | Core Application Components Implemented | November 25 | NFL data retrieval, user authentication, database integration, and initial frontend functionality available for integration |
+| M4 | Required MVP Functionality Implemented | December 2 | Personalized dashboard, matchup pages, event-specific messaging, message persistence, and required error handling implemented |
+| M5 | Application Integration and Verification Completed | December 7 | Required workflows tested together, verification evidence documented, and identified defects reviewed |
+| M6 | Final Documentation and Release Preparation Completed | December 10 | Engineering artifacts, setup instructions, demonstration materials, and final application reviewed |
+| M7 | Final Showcase and Delivery | December 11 | Lightning talk and live demonstration of the integrated application during the Section 02 final examination period |
+
+#### Work Allocation and Responsibilities
+
+Development responsibilities for *Ball Knowledge Bulletin* will be distributed among the four team members according to the application's major technical components. Each developer will be responsible for implementing and testing their assigned functionality while coordinating with other members to ensure that the components operate together.
+
+| Developer | Primary Responsibility | Assigned Work |
+|---|---|---|
+| Ash Ahmed Abdullah F AlHarbi | Frontend Development | Design and implement the React user interface, including registration and login pages, the personalized dashboard, NFL matchup pages, and group messaging interface. |
+| Jeremy Sowder | Database and Sports Data Integration | Implement MongoDB data models and database operations, integrate the external NFL sports data provider, and support storage and retrieval of teams, schedules, matchups, user preferences, and message history. |
+| Sebastien Finch | Backend, Authentication, and Real-Time Messaging | Share responsibility with Sean Hamilton for implementing the Express and Node.js backend, registration and authentication functionality, API endpoints, input validation, authorization, and real-time matchup-specific messaging. |
+| Sean Hamilton | Backend, Authentication, and Real-Time Messaging | Share responsibility with Sebastien Finch for implementing the Express and Node.js backend, registration and authentication functionality, API endpoints, input validation, authorization, and real-time matchup-specific messaging. |
+
+#### Collaboration and Integration
+
+Although each developer has primary technical responsibilities, all four team members will contribute to integrating and verifying the completed application.
+
+Ash will coordinate frontend integration with the backend services implemented by Sebastien and Sean. Jeremy will coordinate database models and sports data integration with the backend to ensure that application data can be stored and retrieved correctly.
+
+Sebastien and Sean will collaborate on backend development, authentication, and real-time messaging, sharing implementation, testing, and integration responsibilities across these components.
+
+The team will coordinate changes affecting shared API endpoints, database models, authentication requirements, and messaging interfaces. Completed functionality will be reviewed and integrated throughout development rather than waiting until the final showcase.
+
+#### Documentation and Verification Responsibilities
+
+All four developers will contribute to the required engineering documentation and verification activities associated with their assigned functionality.
+
+These activities include:
+
+- Requirements engineering and verification criteria.
+- System diagrams and supporting analysis.
+- Ethics reflection.
+- Functional testing and verification evidence.
+- Installation and setup documentation.
+- Final demonstration preparation.
+
+The team will review the completed engineering artifacts to ensure they accurately represent the implemented application and its verified functionality.
 
 #### Schedule
 
-Order of Events:
-- Finished Constructing SoW (November 9th - November 16th)
-- Finding Sports Information Provider (November 17th - November 18th)
-- Design Frontend Interface Appearance (November 18th - November 19th)
-- Develop User Account Registration Feature (November 19th - November 20th)
-- Implement User Login Features (November 20th - November 21st)
-- Populating System Database (November 21st - November 22nd)
-- User Game/Event Focused Group Chat Creation (November 22nd - November 23rd)
-- Aligning Users with Teams/Fighters Feature Creation (November 23rd - November 24th)
-- Group Message Sending Development (November 24th - November 25th)
-- Group Message Deletion Development (November 25th - November 26th)
-- Linking Messages to Users and Timestamps (November 26th - November 27th)
-- Application Error Handling and Input Validation (November 27th - November 28th)
-- Message and Chat Storage Data for Each Registered User (November 28th - November 29th)
-- Application Capability and Feature Testing (November 29th - November 30th)
-- Constructing Documentation and Deployment Instructions (November 30th - December 1st)
-- Final Application Check and Delivery to Client (December 1st - December 2nd)
+The following schedule establishes the planned development periods and major engineering checkpoints.
 
-Gantt Chart:
+| Workstream | Planned Dates | Expected Outcome |
+|---|---|---|
+| Statement of Work | Nov. 9–16 | Completed and submitted SoW |
+| Requirements Engineering | Nov. 17–20 | Functional and quality requirements with identifiable IDs and verification criteria |
+| System Modeling and Analysis | Nov. 18–21 | DFD or sequence diagram, editable source, rendered diagram, and supporting analysis |
+| Sports Data Provider Evaluation | Nov. 17–18 | Selected provider and documented API capabilities and limitations |
+| Frontend Design and Initial Implementation | Nov. 18–25 | React interface and initial application navigation |
+| User Registration and Authentication | Nov. 19–23 | Working registration, login, and authenticated user identification |
+| Sports Data Retrieval and Database Storage | Nov. 19–25 | NFL teams, schedules, and matchup information retrieved and stored |
+| Favorite Team Selection and Personalization | Nov. 23–27 | Stored user preferences and personalized dashboard |
+| Matchup Pages and Discussion Threads | Nov. 23–27 | Individual matchup pages with distinct discussion threads |
+| Real-Time Messaging and Persistence | Nov. 25–Dec. 1 | Authenticated message sending, receiving, and persistent history |
+| Error Handling and Input Validation | Nov. 25–Dec. 2 | Required invalid-input, authorization, and unavailable-data behavior |
+| Ethics Reflection | Nov. 23–Dec. 2 | Completed ethics analysis with identified impacts and mitigations |
+| Continuous Integration and Initial Testing | Nov. 23–Dec. 2 | Integrated components and documented initial test results |
+| MVP Feature Completion Checkpoint | Dec. 2 | Required MVP functionality implemented |
+| Final Integration and Verification | Dec. 3–7 | End-to-end tests, expected and actual results, and verification evidence |
+| Defect Correction and Regression Testing | Dec. 5–9 | Identified defects addressed and affected functionality retested |
+| Final Documentation and Setup Verification | Dec. 3–10 | Requirements, diagrams, ethics, verification, and reproducible setup instructions reviewed |
+| Demonstration Preparation and Rehearsal | Dec. 8–10 | Lightning talk, live demonstration scenario, and final rehearsal |
+| Final Showcase | Dec. 11 | Completed application and engineering artifacts presented during the scheduled final examination period |
+
+The development schedule allows frontend, backend, sports data integration, and engineering documentation to progress concurrently when their dependencies permit.
+
+Application components will be integrated as they become available. The team will prioritize required MVP functionality and defer optional enhancements when they could interfere with required implementation, testing, or documentation.
+
+#### Gantt Chart
+
+The following Gantt chart represents the planned workstreams, major checkpoints, dependencies, and final delivery deadline.
 
 ```mermaid
 gantt
-    title Project Schedule
-    dateFormat MM/DD
-    axisFormat %m-%d
+    title Ball Knowledge Bulletin - Team 21
+    dateFormat YYYY-MM-DD
+    axisFormat %m/%d
 
-    section Documentation
-    Finish SoW : active, des1, 11/9, 7d
+    section Planning
+    Statement of Work :sow, 2026-11-09, 2026-11-16
+    Requirements Engineering :req, 2026-11-17, 2026-11-20
+    System Modeling and Analysis :model, 2026-11-18, 2026-11-21
+    Sports API Evaluation :api, 2026-11-17, 2026-11-18
 
-    section Development and Implementation
-    Finding Sports Information Provider : des2, after des1, 1d
-    Design Frontend Interface Appearance : des3, after des2, 1d
-    Develop User Account Registration Feature : des4, after des3, 1d
-    Implement User Login Features : des5, after des4, 1d
-    Populating System Database : des6, after des5, 1d
-    User Game/Event Focused Group Chat Creation : des7, after des6, 1d
-    Aligning Users with Teams/Fighters Feature Creation : des8, after des7, 1d
-    Group Message Sending Development : des9, after des8, 1d
-    Group Message Deletion Development : des10, after des9, 1d
-    Linking Messages to Users and Timestamps : des11, after des10, 1d
+    section Implementation
+    Frontend Development :front, 2026-11-18, 2026-11-25
+    Authentication :auth, 2026-11-19, 2026-11-23
+    Sports Data and Database :data, 2026-11-19, 2026-11-25
+    Personalization :personal, 2026-11-23, 2026-11-27
+    Matchup Pages and Threads :threads, 2026-11-23, 2026-11-27
+    Real-Time Messaging :messages, 2026-11-25, 2026-12-01
+    Error Handling :errors, 2026-11-25, 2026-12-02
 
-    section Testing and Delivery
-    Application Error Handling and Input Validation : des12, after des11, 1d
-    Message and Chat Storage Data for Each Registered User : des13, after des12, 1d
-    Application Capability and Feature Testing : des14, after des13, 1d
-    Constructing Documentation and Deployment Instructions : des15, after des14, 1d
-    Final Application Check and Delivery to Client : des16, after des15, 1d
+    section Engineering Artifacts
+    Ethics Reflection :ethics, 2026-11-23, 2026-12-02
+    Documentation and Setup :docs, 2026-12-03, 2026-12-10
+
+    section Integration and Verification
+    Continuous Integration :integrate, 2026-11-23, 2026-12-02
+    MVP Feature Complete :milestone, mvp, 2026-12-02, 0d
+    Final Integration and Verification :verify, 2026-12-03, 2026-12-07
+    Defect Correction and Regression :defects, 2026-12-05, 2026-12-09
+    Demo Preparation and Rehearsal :demo, 2026-12-08, 2026-12-10
+
+    section Delivery
+    Final Release Ready :milestone, release, 2026-12-10, 0d
+    Section 02 Final Showcase :milestone, final, 2026-12-11, 0d
 ```
+
+The Gantt chart's editable source and rendered version will be maintained in the team documentation repository with relative links from the Statement of Work.
+
+#### Schedule Management
+
+The team will review progress against the established milestones throughout the project period.
+
+If development difficulties threaten the schedule, the team will prioritize required MVP functionality, resolve integration issues, and defer optional enhancements.
+
+Any changes affecting required functionality, deliverables, or milestone dates will be documented and reflected in the Statement of Work, project schedule, and related engineering artifacts.
+
+The final development period will be reserved for integration, verification, defect correction, documentation, and demonstration preparation. The final showcase will serve as the delivery and demonstration deadline rather than the initial integration checkpoint.
+
 
 ---
 
