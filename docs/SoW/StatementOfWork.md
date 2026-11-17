@@ -9,7 +9,7 @@
   - Jeremy Sowder (GitHub: sowderj1)
 - **Project Period**: 11/9/2026 - 12/11/2026 
 - **Version**: 0.1
-- **Last Updated**: 11/15/2026
+- **Last Updated**: 11/16/2026
 
 ---
 
@@ -161,15 +161,15 @@ From this point of understanding and subsequent departure, each deliverable is a
 | D20 | Team Data                                                    | D11        | Each Team in the supported leagues is stored and retrievable on the *Ball Knowledge Bulletin* platform                                                                                                                   |
 | D21 | Team Game Schedule Data                                      | D20        | The Game Schedule for each Team is stored and retrievable on the *Ball Knowledge Bulletin* platform                                                                                                                      |
 | D22 | Team Matchup Data                                            | D21        | Team Matchup Data (participants, time, and score or result) is stored for each game in the Team Game Schedule Data                                                                                            |
-| D30 | Team Matchup Pages                                           | D22        | For each team matchup, there exists a unique page                                                                                                                                                             |
-| D31 | Team Matchup Threads                                         | D30        | For each team matchup page, there exists a distinct thread                                                                                                                                                    |
+| D30 | Team Matchup Pages                                           | D22        | For each supported Team Matchup, there exists a unique page; navigating to a Matchup displays information associated with the correct game                           |
+| D31 | Team Matchup Threads                                         | D30        | For each Team Matchup Page, there exists a distinct thread; messages associated with one Matchup do not appear in another Matchup's thread                                                                                                                              |
 | D32 | Team Matchup Thread Limited Persistence                      | D31        | Team matchup threads open a defined period before the matchup, remain open during the matchup, and close a defined period after the matchup ends; these periods are defined in Requirements Engineering (D01) |
-| D33 | Team Matchup Thread Messages                                 | D31        | Each Thread has the capacity to contain messages                                                                                                                                                              |
-| d34 | Team Matchup Thread Message Priority                         | D33        | Team Matchup Thread Messages display according to the priority schema defined in Requirements Engineering (D01)                                                                                               |
+| D33 | Team Matchup Thread Messages                                 | D31        | Each Thread has the capacity to contain messages; messages are stored with their associated user, timestamp, and Matchup and remain retrievable after the user returns to the thread                    |
+| D34 | Team Matchup Thread Message Priority                         | D33        | Team Matchup Thread Messages display according to the priority schema defined in Requirements Engineering (D01)                                                                                               |
 | D40 | User Identification                                          | —          | A user can register, login, and be identified                                                                                                                                                                 |
-| D41 | User Favorite Team Selection & Representation                | D20, D40   | A registered user can select their favorite team, and it is represented on their User and used to personalize their dashboard (D44)                                                                           |
+| D41 | User Favorite Team Selection & Representation                | D20, D40   | A user can register, log in, and be identified; valid credentials permit authentication, invalid credentials are rejected, and protected functionality requires an authenticated user                                                                                             |
 | D42 | User Accessibility of Team Matchup Data on Team Matchup Page | D30        | Users can see Team Matchup Data on each Team Matchup Page                                                                                                                                                     |
-| D43 | User Matchup Thread Participation                            | D33, D40   | Users can view, send, and receive messages in each open Team Matchup Thread, with new messages appearing without a page refresh                                                                               |
+| D43 | User Matchup Thread Participation                            | D33, D40   | Authenticated users can view, send, and receive messages in each open Team Matchup Thread, with new messages appearing without a page refresh; messages remain available when users return, unauthorized message submissions are rejected, and messages remain separated by Matchup                                                                               |
 | D44 | Personalized User Dashboard                                  | D22, D41   | A registered user's dashboard displays scores, results, and upcoming Matchups, prioritizing their favorite Team                                                                |
 
 
@@ -384,7 +384,10 @@ gantt
     Section 02 Final Showcase :milestone, final, 2026-12-11, 0d
 ```
 
-The Gantt chart's editable source and rendered version will be maintained in the team documentation repository with relative links from the Statement of Work.
+The Gantt chart's editable source and rendered version are maintained in the team documentation repository:
+
+- [Editable Gantt Chart Source](../../diagrams/gantts/project-gantt.mmd)
+- [Rendered Gantt Chart](../../diagrams/gantts/project-gantt.png)
 
 #### Schedule Management
 
@@ -410,13 +413,18 @@ The *Ball Knowledge Bulletin* project will be considered complete when the follo
 - **Acceptance:** Requirements, diagrams, testing documentation, and ethics reflection are completed and accurately represent the application's functionality.
 
 #### Functioning Ball Knowledge Bulletin Application (D05)
+
 - **Acceptance:** The application successfully demonstrates:
-  - User registration, login, and authentication.
-  - A personalized NFL dashboard displaying schedules, scores, and results.
-  - Integration with an external sports data API.
-  - Individual NFL matchup pages with dedicated group discussions.
-  - Real-time messaging with persistent message history.
+  - User registration, login, and authentication, including rejection of invalid credentials and unauthorized requests.
+  - A personalized NFL dashboard displaying schedules, available scores, and results, with information associated with the user's favorite team prioritized.
+  - Integration with an external sports data API, including appropriate handling of unavailable sporting information.
+  - Individual NFL matchup pages with dedicated group discussions, ensuring that messages from one matchup do not appear in another.
+  - Real time messaging between authenticated users without requiring a page refresh.
+  - Persistent message history that remains available when users return to a matchup discussion.
   - Appropriate error handling and input validation.
+
+- **Verification:** The required workflows will be demonstrated through reproducible tests documented in D03, including test procedures, expected results, actual results, and supporting evidence.
+
 
 #### Testing and Verification (D03)
 - **Acceptance:** Required features are tested and documented with expected results, actual results, and supporting evidence. Any unresolved issues are documented.
